@@ -1,0 +1,15 @@
+.share-main{
+  h5{
+    background-color: rebeccapurple;
+    font-size: 24px;
+    text-align: center;
+    color: #409Eff;
+  }
+  .module-main{
+    position: relative;
+  }
+  .module-item:nth-child(even) h5{
+    background-color: #1c8de0;
+    color: #FF4949;
+  }
+}

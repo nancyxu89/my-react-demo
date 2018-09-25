@@ -1,0 +1,8 @@
+.introduction-main{
+  & .el-tree{
+    height: calc(100vh - 60px);
+  }
+  & .el-tree-node__label{
+    font-size: 20px;
+  }
+}

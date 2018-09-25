@@ -1,0 +1,47 @@
+.demo-header{
+  background-color: #eef1f6;
+  height: 60px;
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 60px;
+    float:left;
+  }
+
+  .demo-nav ul a{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+
+  & .el-menu-item{
+    padding: 0;
+  }
+
+  .demo-nav{
+    float:left;
+    width: calc(100% - 292px);
+    box-sizing: border-box;
+    padding-left: 200px;
+  }
+
+  .demo-opt{
+    width: 192px;
+    float:right;
+    line-height: 60px;
+  }
+
+  .iconfont{
+    color: orange;
+  }
+}
+.mgt-10{
+  margin-right: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

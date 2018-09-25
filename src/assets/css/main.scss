@@ -1,0 +1,16 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+/*  清浮动 */
+
+.clearFix:after {
+  content: "\200B";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.clearFix {
+  *zoom: 1;
+}

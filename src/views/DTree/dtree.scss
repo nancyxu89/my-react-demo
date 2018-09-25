@@ -1,0 +1,45 @@
+.d3-tree {
+  width: 100%;
+  height: 640px;
+}
+
+/**
+**以下是d3 tree图的边样式
+**/
+.node circle {
+  cursor: pointer;
+  stroke: #63dcff;
+  stroke-width: 1px;
+}
+
+.node circle.no-pointer {
+  /*cursor: default;*/
+}
+
+.node circle.gold {
+  stroke: #ff9600;
+}
+
+.node text {
+  font-size: 14px;
+  fill: #333333;
+  cursor: pointer;
+}
+
+.node text.gray {
+  opacity: 0.3;
+}
+
+path.link, path.link.up, path.link.line {
+  fill: none;
+  stroke: url('#MyPath_color2');
+  stroke-width: 1.5px;
+}
+
+path.link.up {
+  stroke: url('#MyPath_color1');
+}
+
+path.link.line {
+  stroke: rgba(204, 219, 236, .4);
+}

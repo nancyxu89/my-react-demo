@@ -1,0 +1,8 @@
+build/
+server/
+scripts/
+config/
+public/
+/src/registerServiceWorker.js
+/static
+/src/assets/js/tree
